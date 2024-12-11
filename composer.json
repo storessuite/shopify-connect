@@ -1,0 +1,28 @@
+{
+    "name": "storessuite/shopify-connect",
+    "description": "Adapter between storessuite/storessuite and storessuite/shopify.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StoresSuite\\ShopifyConnect\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoresSuite\\ShopifyConnect\\ShopifyConnectServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "sarojkalamagar",
+            "email": "sarojkalamagar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^11.35"
+    }
+}
